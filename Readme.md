@@ -39,28 +39,21 @@ You'll need to know the **EndpointId** to call this endpoint.
 
 [Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
 
-```solidity
-bytes32 param1;
-uint256 param2;
+```ruby
+bytes32 param1
+uint256 param2
 ```
 
 [Fixed Parameters](https://docs.api3.org/p/fixed-parameters) { edit below }
 
 ```ruby
-bytes32 format = "json"
+bytes32 format = 'json'
 ```
 
-```python
-bytes32 format = "json"
-```
-
-```javascript
-bytes32 format = "json"
-```
 
 [Response Parameters](https://docs.api3.org/d/response-parameters) { edit below }
 
-```java
+```ruby
 int32 result
 ```
 
@@ -76,21 +69,22 @@ You'll need to know the **EndpointId** to call this endpoint.
 
 [Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
 
-```java
+```ruby
 bytes32 param1
 uint256 param2
 ```
 
 [Fixed Parameters](https://docs.api3.org/p/fixed-parameters) { edit below }
 
-```java
+```ruby
 bytes32 format = 'json'
 ```
 
+
 [Response Parameters](https://docs.api3.org/d/response-parameters) { edit below }
 
-```java
-bool result
+```ruby
+int32 result
 ```
 
 ---

@@ -47,7 +47,7 @@ uint256 param2;
 [Fixed Parameters](https://docs.api3.org/p/fixed-parameters) { edit below }
 
 ```scala
-bytes32 format = 'json';
+bytes32 format = "json"
 ```
 
 [Response Parameters](https://docs.api3.org/d/response-parameters) { edit below }

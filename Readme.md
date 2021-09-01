@@ -40,14 +40,14 @@ You'll need to know the **EndpointId** to call this endpoint.
 [Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
 
 ```solidity
-bytes32 param1
-uint256 param2
+bytes32 param1;
+uint256 param2;
 ```
 
 [Fixed Parameters](https://docs.api3.org/p/fixed-parameters) { edit below }
 
 ```solidity
-bytes32 format = 'json'
+bytes32 format = 'json';
 ```
 
 [Response Parameters](https://docs.api3.org/d/response-parameters) { edit below }

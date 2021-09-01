@@ -13,9 +13,7 @@ Read the [Airnode developer documentation](https://docs.api3.org/d/call-an-airno
 
 **ProviderID:** { 0xd29b9f8588120f75c27e9c84c4cbe88e29034f19368353487c940cccd5874743 }
 
-[Reserved Parameters](https://docs.api3.org/r/reserved-parameters)
-
-* _type??? Cam, are these the same for every Airnode?
+[Reserved Parameters](https://docs.api3.org/r/reserved-parameters) are used to control Airnode behavior and are available for all endpoints.
 
 ## This API is available on: { edit table below }
 
@@ -41,16 +39,22 @@ You'll need to know the **EndpointId** to call this endpoint.
 
 [Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
 
-* *bytes32* param1
-* *uint256* param2
+```java
+bytes32 param1
+uint256 param2
+```
 
 [Fixed Parameters](https://docs.api3.org/p/fixed-parameters) { edit below }
 
-* *bytes32* format = 'json'
+```java
+bytes32 format = 'json'
+```
 
 [Response Parameters](https://docs.api3.org/d/response-parameters) { edit below }
 
-* *int32* result
+```java
+int32 result
+```
 
 ---
 
@@ -64,15 +68,21 @@ You'll need to know the **EndpointId** to call this endpoint.
 
 [Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
 
-* *bytes32* param1
-* *uint256* param2
+```java
+bytes32 param1
+uint256 param2
+```
 
 [Fixed Parameters](https://docs.api3.org/p/fixed-parameters) { edit below }
 
-* *bytes32* format = 'json'
+```java
+bytes32 format = 'json'
+```
 
 [Response Parameters](https://docs.api3.org/d/response-parameters) { edit below }
 
-* *bool* result
+```java
+bool result
+```
 
 ---

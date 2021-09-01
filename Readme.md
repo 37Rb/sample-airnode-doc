@@ -46,7 +46,15 @@ uint256 param2;
 
 [Fixed Parameters](https://docs.api3.org/p/fixed-parameters) { edit below }
 
-```scala
+```ruby
+bytes32 format = "json"
+```
+
+```python
+bytes32 format = "json"
+```
+
+```javascript
 bytes32 format = "json"
 ```
 

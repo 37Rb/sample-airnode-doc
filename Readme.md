@@ -39,7 +39,7 @@ You'll need to know the **EndpointId** to call this endpoint.
 
 [Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
 
-```javascript
+```c
 bytes32 param1
 uint256 param2
 ```

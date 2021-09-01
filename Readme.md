@@ -21,11 +21,11 @@ Read the [Airnode developer documentation](https://docs.api3.org/d/call-an-airno
 
 | Platform                             | Resolution |
 | ------------------------------------ | ---------: |
-| [Ethereum](https://ethereum.org)     | 1m         |
-| [RSK](https://www.rsk.co)            | 1m         |
-| [Moonbeam](https://moonbeam.network) | 1m         |
-| [xDai](https://www.xdaichain.com)    | 1m         |
-| [Solana](https://solana.com)         | 1s         |
+| [Ethereum](https://ethereum.org)     | 1 minute   |
+| [RSK](https://www.rsk.co)            | 1 minute   |
+| [Moonbeam](https://moonbeam.network) | 1 minute   |
+| [xDai](https://www.xdaichain.com)    | 1 minute   |
+| [Solana](https://solana.com)         | 1 second   |
 
 # Endpoints
 

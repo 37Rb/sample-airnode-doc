@@ -39,9 +39,13 @@ You'll need to know the **EndpointId** to call this endpoint.
 
 [Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
 
-```ruby
+```
 bytes32 param1
 uint256 param2
+```
+
+```solidity
+/// @param rings The numbeer of rings
 ```
 
 [Fixed Parameters](https://docs.api3.org/p/fixed-parameters) { edit below }

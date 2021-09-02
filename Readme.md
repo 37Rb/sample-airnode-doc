@@ -39,26 +39,22 @@ You'll need to know the **EndpointId** to call this endpoint.
 
 [Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
 
-```
-bytes32 param1
-uint256 param2
-```
-
 ```solidity
-/// @param rings The numbeer of rings
+bytes32 param1;
+uint256 param2;
 ```
 
 [Fixed Parameters](https://docs.api3.org/p/fixed-parameters) { edit below }
 
-```ruby
-bytes32 format = 'json'
+```solidity
+bytes32 format = 'json';
 ```
 
 
 [Response Parameters](https://docs.api3.org/d/response-parameters) { edit below }
 
-```ruby
-int32 result
+```solidity
+int32 result;
 ```
 
 ---
@@ -73,22 +69,22 @@ You'll need to know the **EndpointId** to call this endpoint.
 
 [Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
 
-```ruby
-bytes32 param1
-uint256 param2
+```solidity
+bytes32 param1;
+uint256 param2;
 ```
 
 [Fixed Parameters](https://docs.api3.org/p/fixed-parameters) { edit below }
 
-```ruby
-bytes32 format = 'json'
+```solidity
+bytes32 format = 'json';
 ```
 
 
 [Response Parameters](https://docs.api3.org/d/response-parameters) { edit below }
 
-```ruby
-int32 result
+```solidity
+bool result;
 ```
 
 ---

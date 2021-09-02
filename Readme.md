@@ -17,13 +17,13 @@ Read the [Airnode developer documentation](https://docs.api3.org/d/call-an-airno
 
 ## This API is available on: { edit table below }
 
-| Platform                             | Resolution |
-| ------------------------------------ | ---------: |
-| [Ethereum](https://ethereum.org)     | 1 minute   |
-| [RSK](https://www.rsk.co)            | 1 minute   |
-| [Moonbeam](https://moonbeam.network) | 1 minute   |
-| [xDai](https://www.xdaichain.com)    | 1 minute   |
-| [Solana](https://solana.com)         | 1 second   |
+| Chain                                | Client Contract                                                    | P   |
+| ------------------------------------ | ---------------                                                    | --: |
+| [Ethereum](https://ethereum.org)     | 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 | 1m  |
+| [RSK](https://www.rsk.co)            | 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 | 1m  |
+| [Moonbeam](https://moonbeam.network) | 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 | 1m  |
+| [xDai](https://www.xdaichain.com)    | 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 | 1m  |
+| [Solana](https://solana.com)         | 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 | 1s  |
 
 # Endpoints
 
@@ -32,6 +32,8 @@ Read the [Airnode developer documentation](https://docs.api3.org/d/call-an-airno
 ## /endpoint/one
 
 { This is an endpoint that can be called by this API. Explain what it does and consider deep linking to it in your Web2 docs. }
+
+**Web2 Docs:** { https://www.coingecko.com/en/api/documentation }
 
 You'll need to know the **EndpointId** to call this endpoint.
 
@@ -61,6 +63,8 @@ int32 result; // The response value of of the request
 ## /second/endpoint
 
 { This is an endpoint that can be called by this API. Explain what it does and consider deep linking to it in your Web2 docs. }
+
+**Web2 Docs:** { https://www.coingecko.com/en/api/documentation }
 
 You'll need to know the **EndpointId** to call this endpoint.
 

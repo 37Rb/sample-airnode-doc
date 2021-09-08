@@ -9,21 +9,21 @@
 
 ## Call this Airnode API
 
-Read the [Airnode developer documentation](https://docs.api3.org/d/call-an-airnode) to learn how to call Airnode APIs. You'll need to know the **ProviderID** to call any endpoint in this API.
+Read the [Airnode developer documentation](https://docs.api3.org/d/call-an-airnode) to learn how to call Airnode APIs. You'll need to know the **Airnode address** to call any endpoint in this API.
 
-**ProviderID:** { 0xd29b9f8588120f75c27e9c84c4cbe88e29034f19368353487c940cccd5874743 }
+`airnode`: { 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 }
 
 [Reserved Parameters](https://docs.api3.org/r/reserved-parameters) are used to control Airnode behavior and are available for all endpoints.
 
 ## This API is available on: { edit table below }
 
-| Chain                                | Client Contract                                                    | P   |
-| ------------------------------------ | ---------------                                                    | --: |
-| [Ethereum](https://ethereum.org)     | 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 | 1m  |
-| [RSK](https://www.rsk.co)            | 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 | 1m  |
-| [Moonbeam](https://moonbeam.network) | 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 | 1m  |
-| [xDai](https://www.xdaichain.com)    | 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 | 1m  |
-| [Solana](https://solana.com)         | 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 | 1s  |
+| Chain                                | Airnode RRP contract                                                    | P   |
+| ------------------------------------ | ---------------                                                         | --: |
+| [Ethereum](https://ethereum.org)     | 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 | 1m  |
+| [RSK](https://www.rsk.co)            | 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 | 1m  |
+| [Moonbeam](https://moonbeam.network) | 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 | 1m  |
+| [xDai](https://www.xdaichain.com)    | 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 | 1m  |
+| [Solana](https://solana.com)         | 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 | 1s  |
 
 # Endpoints
 
@@ -35,9 +35,9 @@ Read the [Airnode developer documentation](https://docs.api3.org/d/call-an-airno
 
 **Web2 Docs:** { https://www.coingecko.com/en/api/documentation }
 
-You'll need to know the **EndpointId** to call this endpoint.
+You'll need to know the **endpoint ID** to call this endpoint.
 
-**EndpointId:** { 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 }
+`endpointId`: { 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 }
 
 [Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
 
@@ -66,9 +66,9 @@ int32 result; // The response value of of the request
 
 **Web2 Docs:** { https://www.coingecko.com/en/api/documentation }
 
-You'll need to know the **EndpointId** to call this endpoint.
+You'll need to know the **endpoint ID** to call this endpoint.
 
-**EndpointId:** { 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 }
+`endpointId`: { 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 }
 
 [Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
 

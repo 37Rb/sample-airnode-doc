@@ -71,7 +71,7 @@ bytes32 format = 'json'; // The format parameter is fixed to the value 'json'
 <!-- Edit response to match the endpoint. -->
 
 ```solidity
-int32 result; // The response value of of the request
+int32 result; // The response value of the request
 ```
 
 ---

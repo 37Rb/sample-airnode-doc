@@ -1,58 +1,74 @@
-# How to use { MySample API } on Web3
+# How to use {{ API Name }} on Web3
 
-> Airnode API Documentation
+> [Airnode](https://api3.org/airnode) API Documentation
 
-{ MySample is a fake API that demonstrates how to write documentation for Airnode APIs. This paragraph is where you would give a brief overview of your API and what it does. }
+{{ Give an overview of the API. Describe what it does. }}
 
-**Home Page:** { https://www.coingecko.com/en/api }  
-**Web2 Docs:** { https://www.coingecko.com/en/api/documentation }
+**Home Page:** {{ URL to API home page }}  
+**Web2 Docs:** {{ URL to API documentation }}
 
 ## Call this Airnode API
 
-Read the [Airnode developer documentation](https://docs.api3.org/d/call-an-airnode) to learn how to call Airnode APIs. You'll need to know the **Airnode address** to call any endpoint in this API.
+Read the [Airnode developer documentation](https://docs.api3.org/d/call-an-airnode) to learn how to call Airnode APIs. You'll need the **Airnode Address** to call any endpoint in this API.
 
-`airnode`: { 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 }
+**Airnode Address:** {{ 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 }}
 
 [Reserved Parameters](https://docs.api3.org/r/reserved-parameters) are used to control Airnode behavior and are available for all endpoints.
 
-## This API is available on: { edit table below }
+## Available on Mainnets:
 
-| Chain                                | Airnode RRP contract                                                    | P   |
-| ------------------------------------ | ---------------                                                         | --: |
+<!-- Only include chains your Airnode is configured to use. -->
+
+| Chain                                | Airnode RRP Contract                       | P   |
+| ------------------------------------ | ------------------------------------------ | --: |
 | [Ethereum](https://ethereum.org)     | 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 | 1m  |
 | [RSK](https://www.rsk.co)            | 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 | 1m  |
 | [Moonbeam](https://moonbeam.network) | 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 | 1m  |
 | [xDai](https://www.xdaichain.com)    | 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 | 1m  |
-| [Solana](https://solana.com)         | 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 | 1s  |
+
+## Available on Testnets:
+
+<!-- Only include chains your Airnode is configured to use. -->
+
+| Chain                                                                          | Airnode RRP Contract                       | P   |
+| ------------------------------------------------------------------------------ | ------------------------------------------ | --: |
+| [Ethereum Ropsten](https://ethereum.org/en/developers/docs/networks/#testnets) | 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 | 1m  |
+| [RSK Testnet](https://developers.rsk.co/rsk/rbtc/conversion/networks/testnet/) | 0xd29B9f8588120F75c27e9C84c4cbe88E29034F19 | 1m  |
 
 # Endpoints
 
 ---
 
-## /endpoint/one
+## {{ /endpoint/one }}
 
-{ This is an endpoint that can be called by this API. Explain what it does and consider deep linking to it in your Web2 docs. }
+{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
 
-**Web2 Docs:** { https://www.coingecko.com/en/api/documentation }
+**Web2 Docs:** {{ URL to endpoint documentation }}
 
-You'll need to know the **endpoint ID** to call this endpoint.
+You'll need the **Endpoint ID** to call this endpoint.
 
-`endpointId`: { 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 }
+**Endpoint ID:** {{ 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 }}
 
-[Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
+[Request Parameters](https://docs.api3.org/d/request-parameters)
+
+<!-- Edit parameters to match the endpoint. -->
 
 ```solidity
 bytes32 param1; // The first parameter
 uint256 param2; // The second parameter
 ```
 
-[Fixed Parameters](https://docs.api3.org/p/fixed-parameters) { edit below }
+[Fixed Parameters](https://docs.api3.org/p/fixed-parameters)
+
+<!-- Edit parameters to match the endpoint. -->
 
 ```solidity
 bytes32 format = 'json'; // The format parameter is fixed to the value 'json'
 ```
 
-[Response](https://docs.api3.org/d/response-parameters) { edit below }
+[Response](https://docs.api3.org/d/response-parameters)
+
+<!-- Edit response to match the endpoint. -->
 
 ```solidity
 int32 result; // The response value of of the request
@@ -60,27 +76,33 @@ int32 result; // The response value of of the request
 
 ---
 
-## /second/endpoint
+## {{ /second/endpoint }}
 
-{ This is an endpoint that can be called by this API. Explain what it does and consider deep linking to it in your Web2 docs. }
+{{ Describe the endpoint. Explain what it does and, if possible, deep link to the Web2 documentation. }}
 
-**Web2 Docs:** { https://www.coingecko.com/en/api/documentation }
+**Web2 Docs:** {{ URL to endpoint documentation }}
 
-You'll need to know the **endpoint ID** to call this endpoint.
+You'll need the **Endpoint ID** to call this endpoint.
 
-`endpointId`: { 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 }
+**Endpoint ID:** { 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 }
 
-[Request Parameters](https://docs.api3.org/d/request-parameters) { edit below }
+[Request Parameters](https://docs.api3.org/d/request-parameters)
+
+<!-- Edit parameters to match the endpoint. -->
 
 ```solidity
 bytes32 param1;
 uint256 param2;
 ```
 
-[Response](https://docs.api3.org/d/response-parameters) { edit below }
+[Response](https://docs.api3.org/d/response-parameters)
+
+<!-- Edit response to match the endpoint. -->
 
 ```solidity
 bool result;
 ```
 
 ---
+
+<!-- Add more endpoints as needed... -->

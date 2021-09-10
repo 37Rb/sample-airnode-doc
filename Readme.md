@@ -84,7 +84,7 @@ int32 result; // The response value of the request
 
 You'll need the **Endpoint ID** to call this endpoint.
 
-**Endpoint ID:** { 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 }
+**Endpoint ID:** {{ 0xd37251d64f9aa2e06ec1e3393e52724d091ecf3c458670f2938ac2c94da37fa2 }}
 
 [Request Parameters](https://docs.api3.org/d/request-parameters)
 
